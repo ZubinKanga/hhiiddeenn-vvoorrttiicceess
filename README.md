@@ -1,4 +1,5 @@
-# _254
+# hhiiddddeenn vvoorrttiicceess
+## Rollercoaster simulator connector
 
 This repository contains files to connect the rollercoaster simulation software [No Limits 2](https://www.nolimitscoaster.com/) to the iOS metronome app [The Metronome by Soundbrenner](https://www.soundbrenner.com/the-metronome-app/), with the goal to translate rollercoaster ride information like speed to metronome attributes like BPM. 
 
@@ -33,13 +34,13 @@ Open the Terminal application in Application > Utilities > Terminal. Navigate to
 Run the Python script to receive the telemetry data from No Limits 2 and translate it to an [Open Sound Control](https://en.wikipedia.org/wiki/Open_Sound_Control) server by typing 
 
 ```
-python _254_nl2_to_osc.py
+python hhvv_nl2_to_osc.py
 ```
 and confirming with Enter.
 
 ### Max Patch
 
-You can now open the [Max 8](https://cycling74.com/products/max) patch `_254_osc_to_midi.maxpat`. Its job is it to receive the OSC data and transform the speed value into a simple metronome. The metronome ticks are sent as individual MIDI note commands to an iPhone running The Metronome by Soundbrenner.
+You can now open the [Max 8](https://cycling74.com/products/max) patch `hhvv_osc_to_midi.maxpat`. Its job is it to receive the OSC data and transform the speed value into a simple metronome. The metronome ticks are sent as individual MIDI note commands to an iPhone running The Metronome by Soundbrenner.
 
 ### MIDI Connection
 For the The Metronome by Soundbrenner to receive the MIDI command, you need to connect the iOS device using a USB cable (Bluetooth MIDI is not recommended). Open the Audio MIDI Setup application under Applications > Utilities, navigate to the Audio Devices screen (⌘+1) and enable the iOS device for MIDI communication via USB by clicking the "Enable" button.

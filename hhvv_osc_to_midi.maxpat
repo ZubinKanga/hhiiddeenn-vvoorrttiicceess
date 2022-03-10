@@ -188,7 +188,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 590.0, 184.0, 503.0, 132.0 ],
-					"text" : "How to use:\n1. Start No Limits 2 with telemetry enabled\n2. Start Python script _254 NL2 to OSC\n3. Receive OSC here\n4. Send MIDI to iPhone which was connected with USB cable using Audio/MIDI app on macOS\n5. Play around and have fun!"
+					"text" : "How to use:\n1. Start No Limits 2 with telemetry enabled\n2. Start Python script hhvv NL2 to OSC\n3. Receive OSC here\n4. Send MIDI to iPhone which was connected with USB cable using Audio/MIDI app on macOS\n5. Play around and have fun!"
 				}
 
 			}
@@ -201,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 590.0, 150.0, 486.0, 24.0 ],
-					"text" : "_254 No Limits 2 OSC to Soundbrenner Metronome forwarder"
+					"text" : "hhvv No Limits 2 OSC to Soundbrenner Metronome forwarder"
 				}
 
 			}
